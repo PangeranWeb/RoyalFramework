@@ -1,0 +1,17 @@
+<?php
+
+$config['displayErrorDetails'] = true;
+$config['addContentLengthHeader'] = false;
+
+$config['db']['host']   = "localhost";
+$config['db']['user']   = "root";
+$config['db']['pass']   = "";
+$config['db']['dbname'] = "";
+
+$config['plates']   = __DIR__ . '/resource';
+
+$config['flysystem']    = __DIR__ . '/../public/files/';
+
+$config['logger']    = __DIR__ . "/../logs/app.log";
+
+$config['base_url']     = 'http://localhost/';

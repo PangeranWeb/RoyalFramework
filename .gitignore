@@ -1,0 +1,5 @@
+vendor/
+log/
+phinx.yml
+public/files/*
+app/config.php
